@@ -1,41 +1,41 @@
+
 <!DOCTYPE html>
-
 <html>
-
-<head>
-     <meta charset="utf-8">
-     <title>
-         Test
-     </title>
-</head>
-
-<body>
-    <h1> Hello World! </h1>
-    <h3> 
-        by Raju & Mayra
+    <head>
+        <title>Hangman</title>
+        <link  href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
-    </h3>
-    <ul>
-        Go Set a Watchan: A Novel
-        <ul>
-        <img src = "https://images-na.ssl-images-amazon.com/images/I/51sbtF6KaPL._SX329_BO1,204,203,200_.jpg">
-        </ul>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
-    </ul>
-    <ul>
-        Getting Stoned with Savages
-        <ul>
-        <img src = "https://images-na.ssl-images-amazon.com/images/I/512NRmGxGFL._SX322_BO1,204,203,200_.jpg">
-        </ul>
-        
-        <ul>
-        The Shack
-        <ul>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+        <div class='container text-center'>
+            <header>
+                <h1>Hangman</h1>
+                <h4>Javascript Edition</h4>
+            </header>
             
-        <img src = "https://images-na.ssl-images-amazon.com/images/I/51plnK1YpdL._SX323_BO1,204,203,200_.jpg ">
-        </ul>
-        </ul>
-    </ul>
-</body>
-
+            <div id="word"></div>
+            <div id="letters"></div>
+            
+            <div id="won">
+                <h2>You Won!</h2>
+                <button class="replayBtn btn btn-success">Play Again</button>
+            </div>
+            <div id="lost">
+                <h2>You Lost!</h2>
+                <button class="replayBtn btn btn-warning">Play Again</button>
+            </div>
+            
+            <div id="man">
+                <img src="img/stick_0.png" class="manImg" id="hangImg">
+            </div>
+        </div>
+        
+    <script src='js/hangman_revised.js'></script>
+    </body>
 </html>
