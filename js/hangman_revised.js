@@ -1,3 +1,6 @@
+
+//VARIABLES
+// Creating an array of available letters
 var alphabet = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 
                 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 
                 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'];
@@ -27,10 +30,7 @@ $(".replayBtn").on("click", function() {
     location.reload();
 });
 
-$(".letter").click(function(){
-    checkLetter($(this).attr("id"));
-    disableButton($(this));
-})
+
 //FUNCTIONS
 
 // Kicks off the game
@@ -120,9 +120,6 @@ function checkLetter(letter) {
     // Update the game state
     if (positions.length > 0) {
         updateWord(positions, letter);
-        if(!board.includes('_')){
-            endGame(true);
-        }
     } else {
         remainingGuesses -= 1;
         updateMan();

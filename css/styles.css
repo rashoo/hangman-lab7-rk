@@ -1,7 +1,161 @@
-#word, #letters{
+/*
+body{ margin: 0px; }
+
+*{
+	-webkit-user-select: none;  /* Chrome and Safari */
+	-moz-user-select: none;     /* Firefox */
+	-ms-user-select: none;      /* IE 10+ */
+	user-select: none;          /* Likely future */      
+/*}
+
+#gameWindow{
+	width: 1000px;
+	height: 600px;
+	background-color: black;
+	margin: 0 auto;
+}
+
+#man{
+	float: left;
+	width: 150px;
+	text-align: center;
+	margin: 100px;
+	margin-top: 0px;
+}
+
+#main{
+	position: relative;
+	width:600px;
+	height: 500px;
+	margin-top: 40px;
+	float: left;
+	border: 1px solid white;
+	color: white;
+	text-align: center;
+}
+
+#gameBoard, #splashScreen{
+	position: absolute;
+	width: 600px;
+	height: 500px;
+	left: 0px;
+	top: 0px;
+	background-color: rgba(255, 255, 255, 0.2);
+
+}
+
+#splashScreen{
+	z-index: 2;
+	background-color: black;
+}
+
+h1{
+	color: white;
+	font-size: 40pt;
+	text-align: center;
+}
+
+#btnStart{
+	padding: 10px;
+	margin: 100px auto;
+	color: black;
+	background-color: white;
+	width: 200px;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+#btnStart:hover{
+	background-color: yellow;
+}
+
+#puzzle{
+	height: 40px;
+}
+
+#used{
+	min-height: 40px;
+}
+
+.button{
+	text-align: center;
+	cursor: hand;
+	cursor: pointer;
+	-webkit-border-radius: 12px;
+	-moz-border-radius: 12px;
+	border-radius: 12px;
+}
+
+.panel{
+	background-color: black;
+	padding: 20px;
+	margin: 20px;
+	color: white;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+}
+
+.box{
+	float: left;
+	text-align: center;
+	font-size: 16px;
+	width: 10px;
+	height: 30px;
+	padding: 2px;
+	margin: 3px;
+	color: yellow;
+}
+
+.letter{
+	border-bottom: solid white 2px;
+}
+
+.btnLetter{
+	display: inline-block;
+	text-align: center;
+	font-size: 18pt;
+	width: 30px;
+	height: 30px;
+	padding: 2px;
+	margin: 3px;
+	color: white;
+	background-color: gray;
+	cursor: pointer;
+	cursor: hand;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: white 2px solid;
+}
+
+.btnLetter:hover{
+	background-color: navy;
+}
+
+.lblUsed{
+	display: inline-block;
+	text-align: center;
+	font-size: 14pt;
+	width: 24px;
+	height: 24px;
+	padding: 2px;
+	margin: 3px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	border: white 1px dotted;
+}
+*/
+#won, #lost {
+    display: none;
+}
+
+#word, #letters {
     padding: 20px 0px;
 }
-#man{
+
+#man {
     margin: 20px auto;
     width: 600px;
     height: 600px;
@@ -9,16 +163,16 @@
     border-radius: 5px;
     border-width: 1px;
 }
-#word{
+
+#word {
     font-size: 1.8em;
 }
-.hint{
+
+.hint {
     font-size: 0.6em !important;
 }
-.btn{
+
+.btn {
     padding: 7px 7px !important;
     margin: 0px 2px;
-}
-#won, #lost{
-    display: none;
 }

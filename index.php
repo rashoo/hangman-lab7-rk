@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
     <head>
@@ -23,11 +22,9 @@
             <div id="letters"></div>
             
             <div id="won">
-                <h2>You Won!</h2>
                 <button class="replayBtn btn btn-success">Play Again</button>
             </div>
             <div id="lost">
-                <h2>You Lost!</h2>
                 <button class="replayBtn btn btn-warning">Play Again</button>
             </div>
             
